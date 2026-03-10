@@ -1,0 +1,11 @@
+# Keyball44 ZMK Configuration
+# Board: Seeed Studio XIAO BLE
+# Shield: Custom Keyball44 split keyboard
+---
+include:
+  - board: xiao_ble
+    shield: corne_left
+  - board: xiao_ble
+    shield: corne_right
+  - board: xiao_ble
+    shield: settings_reset
